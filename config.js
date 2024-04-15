@@ -3,28 +3,28 @@ const chalk = require("chalk");
 
 
 //
-global.available = true;
+global.available = false;
 global.autoReadAll = false;
-global.antitags = true;
+global.antitags = false;
 
 
 //auto functioner
 global.autoTyping = false;                //auto tying by default off.
 global.autoRecord = false;                //auto recording by default off.
 global.groupevent = false;                //This is the new variable for controlling group event handling.
-global.statusseen = true;                 //This is the new variable for controlling status seen.
-global.autoreadgc = true;
+global.statusseen = false;                 //This is the new variable for controlling status seen.
+global.autoreadgc = false;
 
 
 //
-global.prefa = ["."];                                    //Default prefix here. you can change if you want.
+global.prefa = ["-"];                                    //Default prefix here. you can change if you want.
 
 
 //
-global.Owner = ["916297175943", "919362639362"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["916297175943", "919362639362"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["916297175943"];
-global.OwnerName = "Kai";
+global.Owner = ["2348137420869", "2349011346139"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["2348137420869", "2349011346139"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.ownertag = ["2348137420869"];
+global.OwnerName = "chima";
 global.BotName = "A17";
 global.packname = "A17 Bot";                             //Do not change.
 global.author = "By: Kai";                               //Do not change.
